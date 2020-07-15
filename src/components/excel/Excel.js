@@ -36,8 +36,6 @@ export class Excel {
       document.addEventListener('contextmenu', preventDefault)
     }
     this.store.dispatch(updateDate())
-    this.subscriber.subscribeComponents(this.components)
-    this.components.forEach(component => component.init())
   }
 
   destroy() {
