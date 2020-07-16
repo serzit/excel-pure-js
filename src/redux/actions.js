@@ -5,8 +5,9 @@ import {
   APPLY_STYLE,
   CHANGE_TITLE,
   UPDATE_DATE
-} from './types';
+} from './types'
 
+// Action Creator
 export function tableResize(data) {
   return {
     type: TABLE_RESIZE,
@@ -14,16 +15,16 @@ export function tableResize(data) {
   }
 }
 
-export function updateDate() {
-  return {
-    type: UPDATE_DATE
-  }
-}
-
 export function changeText(data) {
   return {
     type: CHANGE_TEXT,
     data
+  }
+}
+
+export function updateDate() {
+  return {
+    type: UPDATE_DATE
   }
 }
 

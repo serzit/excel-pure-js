@@ -1,4 +1,4 @@
-import {ExcelComponent} from '@core/ExcelComponent';
+import {ExcelComponent} from '@core/ExcelComponent'
 
 export class ExcelStateComponent extends ExcelComponent {
   constructor(...args) {
@@ -6,7 +6,7 @@ export class ExcelStateComponent extends ExcelComponent {
   }
 
   get template() {
-  	return JSON.stringify(this.state, null, 2)
+    return JSON.stringify(this.state, null, 2)
   }
 
   initState(initialState = {}) {
