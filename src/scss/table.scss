@@ -16,8 +16,6 @@
     height: $row-height;
   }
 
-
-
   .row-info {
     position: relative;
     display: flex;
@@ -80,6 +78,7 @@
       opacity: 1!important;
     }
   }
+
   .col-resize {
     top: 0;
     width: 4px;
@@ -97,4 +96,5 @@
       cursor: row-resize;
     }
   }
+
 }
