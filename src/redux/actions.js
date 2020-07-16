@@ -35,7 +35,6 @@ export function changeStyles(data) {
   }
 }
 
-// value, ids
 export function applyStyle(data) {
   return {
     type: APPLY_STYLE,

@@ -12,7 +12,7 @@ export class ExcelComponent extends DomListener {
     this.prepare()
   }
 
-  // Настраивааем наш компонент до init
+  // Настраивааем компонент до init
   prepare() {}
 
   // Возвращает шаблон компонента
